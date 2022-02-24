@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "honeyileftthekeys:maltrine_block"
+    }
+  ],
+  "result": {
+    "item": "honeyileftthekeys:maltrine",
+    "count": 9
+  }
+}

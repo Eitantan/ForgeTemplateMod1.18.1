@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "honeyileftthekeys:block/raw_maltrine_block"
+  }
+}

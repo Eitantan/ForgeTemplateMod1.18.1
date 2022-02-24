@@ -1,3 +1,16 @@
 {
-  "item.honeyileftthekeys.citrine": "Citrine"
+  "item.honeyileftthekeys.maltrine": "Maltrine",
+  "item.honeyileftthekeys.raw_maltrine": "Raw Maltrine",
+  "item.honeyileftthekeys.metal_detector": "Metal Detector",
+
+  "block.honeyileftthekeys.maltrine_block": "Maltrine Block",
+  "block.honeyileftthekeys.raw_maltrine_block": "Raw Maltrine Block",
+  "block.honeyileftthekeys.maltrine_ore": "Maltrine Ore",
+  "block.honeyileftthekeys.deepslate_maltrine_ore": "Deepslate Maltrine Ore",
+  "block.honeyileftthekeys.endstone_maltrine_ore": "Endstone Maltrine Ore",
+  "block.honeyileftthekeys.netherrack_maltrine_ore": "Nether Maltrine Ore",
+
+  "itemGroup.honeyileftthekeystab": "Honey I Left The Keys Mod",
+
+  "item.tutorialmod.metal_detector.no_valuables": " "
 }
