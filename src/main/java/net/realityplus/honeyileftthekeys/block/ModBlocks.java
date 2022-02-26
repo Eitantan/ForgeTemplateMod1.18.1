@@ -14,8 +14,10 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.realityplus.honeyileftthekeys.HoneyILeftTheKeys;
+import net.realityplus.honeyileftthekeys.block.custom.SpeedyBlock;
 import net.realityplus.honeyileftthekeys.item.ModCreativeModeTab;
 import net.realityplus.honeyileftthekeys.item.ModItems;
+import org.checkerframework.checker.units.qual.Speed;
 
 import java.util.function.Supplier;
 import java.util.function.ToIntFunction;
@@ -58,6 +60,12 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> NETHERRACK_MALTRINE_ORE = registerBlock("netherrack_maltrine_ore",
             () -> new Block(BlockBehaviour.Properties
+                    .of(Material.STONE)
+                    .strength(4.5f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.HONEY_I_LEFT_THE_KEYS);
+
+    public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
+            () -> new SpeedyBlock(BlockBehaviour.Properties
                     .of(Material.STONE)
                     .strength(4.5f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.HONEY_I_LEFT_THE_KEYS);
