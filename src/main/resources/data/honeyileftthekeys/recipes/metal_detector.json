@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " / ",
+    " # ",
+    "/5/"
+  ],
+  "key": {
+    "#": {
+      "item": "honeyileftthekeys:maltrine"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:redstone_dust"
+    }
+  },
+  "result": {
+    "item": "honeyileftthekeys:metal_detector"
+  }
+}
