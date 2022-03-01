@@ -22,6 +22,15 @@ public class ModItems {
     public static final  RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector", () -> new MetalDetectorItem(new Item.Properties()
             .tab(ModCreativeModeTab.HONEY_I_LEFT_THE_KEYS).durability(320)));
 
+    public static final  RegistryObject<Item> CUCUMBER = ITEMS.register("cucumber", () -> new Item(new Item.Properties()
+            .tab(ModCreativeModeTab.HONEY_I_LEFT_THE_KEYS).food(ModFoods.CUCUMBER)));
+
+    public static final  RegistryObject<Item> SLIMY = ITEMS.register("slimy", () -> new Item(new Item.Properties()
+            .tab(ModCreativeModeTab.HONEY_I_LEFT_THE_KEYS).food(ModFoods.SLIMY)));
+
+    public static final  RegistryObject<Item> MAGICOAL = ITEMS.register("magicoal", () -> new Item(new Item.Properties()
+            .tab(ModCreativeModeTab.HONEY_I_LEFT_THE_KEYS)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
